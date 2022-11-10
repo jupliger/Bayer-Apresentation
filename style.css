@@ -12,6 +12,10 @@
      width: 6px;
 }
 
+span{
+   color: #fff; 
+}
+
 /* tamanho barrinha da barra de rolagem kk*/
 ::-webkit-scrollbar-thumb {
      background: #9e6da5;
@@ -33,6 +37,8 @@ header {
      position: sticky;
      top: 0;
      flex-wrap: wrap;
+     flex-direction: column;
+     text-align: center;
 
 
 }
@@ -98,6 +104,7 @@ strong {
      color: white;
      padding-top: 50px;
      flex-wrap: wrap;
+     padding:  15px 0px 15px 15px;
 }
 
 h1 {
@@ -142,6 +149,7 @@ p {
      width: 50%;
      border-radius: 100%;
      border: solid blueviolet 10px;
+     margin-bottom: 20px;
 }
 
 .tecnologies {
@@ -218,7 +226,7 @@ h2:hover {
 .top {
      position: sticky;
      bottom: 0;
-     padding-left: 90%;
+     padding-left: 85%;
      scroll-behavior: smooth;
      margin-bottom: 2%;
 }
@@ -272,66 +280,40 @@ h2:hover {
      margin-bottom: 20px;
 }
 
-.bayerChallenge {
-     margin-top: 120px;
-     display: flex;
-     flex-direction: row;
-     align-items: center;
-     flex-wrap: wrap;
-     justify-content: center;
-}
 
-.bayerChallenge-text {
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     width: 60%;
-     flex-wrap: wrap;
-     align-items: flex-start;
-     margin-left: 20px;
-
-}
-
-.bayerChallenge-text h4 {
-     margin-bottom: 20px;
-}
-
-.bayerChallenge img {
-     box-shadow: -20px 20px blueviolet;
-     margin-bottom: 40px;
-}
-
-.footer {
+.bayer {
      margin-top: 120px;
      display: flex;
      flex-direction: row-reverse;
      align-items: flex-start;
      justify-content: center;
      flex-wrap: wrap;
+     padding:  15px 0px 15px 15px;
 }
 
-.footer-text {
+.bayer-text {
      display: flex;
      flex-direction: column;
      align-items: flex-start;
      justify-content: center;
-     width: 500px;
      flex-wrap: wrap;
+     width: 90%;
 
 }
 
-.footer-text h4 {
-     margin-top: 40px;
+.bayer-text h4 {
+     margin-top: 20px;
+}
+.bayer-text h3 {
+     margin-top: 50px;
 }
 
-.footer img {
+.bayer img {
      box-shadow: 20px 20px blueviolet;
 
-     width: 90%
+     width: 98%
 }
 
-
-@media screen and (max-width: 768px) {}
 
 @media screen and (min-width: 1200px) {
      header {
@@ -342,6 +324,7 @@ h2:hover {
           align-content: center;
           position: sticky;
           top: 0;
+          flex-direction: row;
 
      }
 
@@ -448,6 +431,7 @@ h2:hover {
           margin-left: 50px;
           border-radius: 100%;
           border: solid blueviolet 10px;
+          margin-bottom: 20px;
      }
 
      .tecnologies {
@@ -524,7 +508,7 @@ h2:hover {
      .top {
           position: sticky;
           bottom: 0;
-          padding-left: 96%;
+          padding-left: 88%;
           scroll-behavior: smooth;
           margin-bottom: 2%;
      }
@@ -571,46 +555,30 @@ h2:hover {
           width: 500px;
 
      }
+     .byjus-text li {
+          margin-top: 20px;
+          font-family: Montserrat;
+
+     }
+
+     .byjus-text ul {
+         padding-left: 25px;
+     }
 
      .byjus-text h4 {
           margin-bottom: 20px;
      }
 
-     .bayerChallenge {
-          margin-top: 120px;
-          display: flex;
-          flex-direction: row;
-          align-items: flex-start;
-          justify-content: center;
-     }
-
-     .bayerChallenge-text {
-          display: flex;
-          flex-direction: column;
-          align-items: flex-start;
-          justify-content: center;
-          width: 500px;
-
-     }
-
-     .bayerChallenge-text h4 {
-          margin-bottom: 20px;
-     }
-
-     .bayerChallenge img {
-          box-shadow: -20px 20px blueviolet;
-          margin-right: 80px;
-     }
-
-     .footer {
-          margin-top: 120px;
+     
+     .bayer {
+          margin-top: 100px;
           display: flex;
           flex-direction: row-reverse;
           align-items: flex-start;
           justify-content: center;
      }
 
-     .footer-text {
+     .bayer-text {
           display: flex;
           flex-direction: column;
           align-items: flex-start;
@@ -619,11 +587,11 @@ h2:hover {
 
      }
 
-     .footer-text h4 {
+     .bayer-text h4 {
           margin-bottom: 20px;
      }
 
-     .footer img {
+     .bayer img {
           box-shadow: 20px 20px blueviolet;
           margin-left: 80px;
           width: 320px
